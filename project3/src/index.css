@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+  height: 65px;
+}
+
+.trollFace {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.header--tittle {
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.header--tittle2 {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.input1 {
+  width: auto;
+  height: 35px;
+  left: 36px;
+  top: 101px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.input2 {
+  width: auto;
+  height: 35px;
+  left: 36px;
+  top: 101px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.getMeme {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  font-size: 20px;
 }
