@@ -20,9 +20,9 @@ import { useState } from "react";
 // // };
 
 export default function FormTodo (props) {
-  const { handleAddItem } = props;
+  function handleAddItem (props);
   const [inputToDo, setInputToDo] = useState("");
-  const handleSubmit = e => {
+  function handleSubmit (e) {
     e.preventDefault(); // para que evitar que se refresque la página
     setInputToDo("");
     props.handleAddItem(inputToDo);
